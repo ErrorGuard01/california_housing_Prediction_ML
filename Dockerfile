@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
 COPY app.py .
-COPY model ./model
+#COPY model ./model
 
 
 EXPOSE 8000
