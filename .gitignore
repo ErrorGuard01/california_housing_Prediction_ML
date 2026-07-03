@@ -1,0 +1,92 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytype/
+.dmypy.json
+dmypy.json
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Machine learning / model artifacts
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.model
+*.pb
+*.safetensors
+
+# Data files (common ML formats)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.npy
+*.npz
+*.npy.gz
+*.parquet
+*.feather
+
+# Logs and local outputs
+logs/
+outputs/
+artifacts/
+results/
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Environment files
+.env
+.env.local
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Package distribution
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+.pip-cache
+
+# Temporary files
+*.tmp
+*~
+.*.swp
+.*.swo
