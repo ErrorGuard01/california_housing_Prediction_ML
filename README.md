@@ -93,7 +93,6 @@ http://127.0.0.1:8000/docs
 
 ## 📈 Future Improvements
 
-* Improve model performance through hyperparameter tuning
 * Add Docker support
 * Implement CI/CD pipeline
 * Add model monitoring and logging
